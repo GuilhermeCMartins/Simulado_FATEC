@@ -1,0 +1,35 @@
+header{
+    background-image: url(https://picsum.photos/1800/900);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.container_text{
+    text-align: justify;
+}
+
+.gallery{
+    font-size: 48px;
+}
+.resume{
+    font-size: 32px;
+}
+
+@media screen and (max-width: 768px){
+    .gallery{
+        font-size: 22px;
+    }
+
+    .resume{
+        font-size: 20px;
+    }
+
+    .container_text{
+        font-size: 14px;
+    }
+
+    .resp-none{
+        display: none;
+    }
+}
